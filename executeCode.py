@@ -4,6 +4,7 @@ import os
 outlook = win32.Dispatch('outlook.application')
 namespace = outlook.GetNamespace('MAPI')
 directory = "G:\\GitHub\\JIRA-creator\\sample folder"
+
 accounts = namespace.Accounts
 
 
